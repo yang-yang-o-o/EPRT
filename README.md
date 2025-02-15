@@ -2,13 +2,13 @@
 
 EPRT (Edge-based 6D Object Pose Refinement and Tracking) is an open-source project designed to refine and track the 6D pose of objects in real-time on the edge. It consists of three main stages: object detection, initial pose estimation, and pose refinement based on edge computing. The goal of EPRT is to provide an accurate and efficient method for 6D object pose tracking and optimization.
 
-| ![Demo 1](assets\2.png) | ![Demo 1](assets\3.png) |
+| ![Demo 1](assets/2.png) | ![Demo 1](assets/3.png) |
 |--------|--------|
-| ![Demo 1](assets\1.png) |![alt text](assets\4.png) |
+| ![Demo 1](assets/1.png) |![alt text](assets/4.png) |
 
-| ![Demo 1](assets\1.gif) |![Demo 1](assets\3.gif) |
+| ![Demo 1](assets/1.gif) |![Demo 1](assets/3.gif) |
 |--------|--------|
-| ![Demo 1](assets\2.gif) | ![Demo 1](assets\4.gif) |
+| ![Demo 1](assets/2.gif) | ![Demo 1](assets/4.gif) |
 
 ## Project Overview
 
@@ -18,14 +18,14 @@ EPRT involves the following three stages:
 
 2. **Initial Pose Estimation**: 
 
-| ![alt text](assets\AAE-1.png) |![alt text](assets\AAE-2.png) |
+| ![alt text](assets/AAE-1.png) |![alt text](assets/AAE-2.png) |
 |--------|--------|
 
 The second stage involves estimating the initial 6D pose of the object by using an AAE. This method estimates the relative pose between the object and the camera from the detected object patch.
 
 3. **Edge-based Pose Refinement**: 
 
-| ![alt text](assets\D2CO-1.png) |![alt text](assets\D2CO-2.png) |
+| ![alt text](assets/D2CO-1.png) |![alt text](assets/D2CO-2.png) |
 |--------|--------|
 
 The final stage uses the D2CO method for pose optimization. This technique performs non-linear optimization to minimize the reprojection error, refining the object’s 6D pose on edge devices.
