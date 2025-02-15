@@ -1,0 +1,18 @@
+%YAML:1.0
+img_width: 640
+img_height: 480
+size_scale_factor: 1.
+fx: 799.76060939
+fy: 798.60092781
+cx: 307.34942883
+cy: 218.84201928
+has_dist_coeff: 1
+dist_px: 1.68216888e-03
+dist_py: 1.46292039e-03
+dist_k0: 2.27768817e-01
+dist_k1: -1.45123240e+00
+dist_k2: 2.63823340e+00
+dist_k3: 0.
+dist_k4: 0.
+dist_k5: 0.
+term_epsilon: 9.9999999999999995e-08
